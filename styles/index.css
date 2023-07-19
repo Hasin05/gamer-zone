@@ -48,6 +48,26 @@ nav > ul{
 nav li{
     margin-right: 30px;
 }
+.btn1{
+    border: 1px solid palevioletred;
+    border-radius: 40px;
+    text-align: center;
+    background-color: palevioletred;
+    color: white;
+    padding: 10px;
+}
+.btn2{
+    border: 1px solid #4EC5F7;
+    border-radius: 40px;
+    text-align: center;
+    background-color: #4EC5F7;
+    color: white;
+    padding: 10px;
+}
+/* .btn2:hover{
+    border: 2px solid blue;
+} */
+
 .f-background{
     display: flex;
     padding-top: 10px;
@@ -96,11 +116,78 @@ nav li{
     
 }
 
+/* Mian Section */
+/* Online games */
+.online-h{
+    font-size: 2.8rem;
+    font-weight: 700;
+    color: #0B0223;
+    margin-bottom: -5px;
+}
+.funny{
+    color: #cf1e76e6;
+}
+.online-p{
+    color: #0B0223;
+    font-size: 1.1rem;
+    font-weight: 400;
+}
+.online-banner{
+    text-align: center;
+    margin-top: 60px;
+}
+.o-img{
+}
+.online-img img{
+    border-radius: 16px;
+    width: 225px;
+    height: 260px;
+}
+.online-img img p{
+    gap: 20px;
+}
+.online-img{
+
+    display: flex;
+    justify-content:space-evenly;
+    margin: 0 180px;
+}
+
+/* section2 */
+.play-instant{
+    display: flex;
+    align-items: center;
+    margin: 60px 240px;
+    gap: 80px;
+}
+.sec2-title{
+    font-size: 2.8rem;
+    font-weight: 700;
+}
+.sec2-img img{
+    width: 530px;
+    height: 600px;
+}
+
+.btm-img img{
+    width: 225px;
+    height: 260px;
+} 
+.btm-img{
+    position: relative;
+    right: 670px;
+    top: 240px;
+}
+
+/* Last section */
+
+
 
 
 /*Responsive for mobile  */
+
 @media screen and (max-width: 576px) {
-    nav{
+    nav, .online-img, .play-instant {
         flex-direction: column;
     }
     nav > ul {
@@ -114,7 +201,23 @@ nav li{
     .full-banner{
         flex-direction: column;
     }
-    .banner-img{
+    .banner-img {
         width: 80%;
     }
+    .online-img{
+        margin: 20px 140px;
+    }
+    .sec2-img{
+        margin: 20px 140px;
+    }
+    .sec2{
+        text-align: center;
+    }
+}
+
+/* For Medium Device */
+@media screen and (min-width: 576px) and (max-width: 960px){
+
+
+
 }
